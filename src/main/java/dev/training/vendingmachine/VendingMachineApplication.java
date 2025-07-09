@@ -1,4 +1,4 @@
-package dev.training;
+package dev.training.vendingmachine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

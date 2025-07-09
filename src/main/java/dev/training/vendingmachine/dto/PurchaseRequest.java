@@ -1,10 +1,11 @@
-package dev.training.dto;
+package dev.training.vendingmachine.dto;
 
 public class PurchaseRequest {
     private String item;
     private int amount;
 
-    public PurchaseRequest() {}
+    public PurchaseRequest() {
+    }
 
     public PurchaseRequest(String item, int amount) {
         this.item = item;

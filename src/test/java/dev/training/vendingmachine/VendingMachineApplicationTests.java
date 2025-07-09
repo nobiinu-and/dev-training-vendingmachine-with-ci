@@ -1,4 +1,4 @@
-package dev.training;
+package dev.training.vendingmachine;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

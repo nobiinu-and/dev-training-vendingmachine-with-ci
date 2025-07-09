@@ -1,10 +1,11 @@
-package dev.training.dto;
+package dev.training.vendingmachine.dto;
 
 public class HealthCheckResponse {
     private String status;
     private String timestamp;
 
-    public HealthCheckResponse() {}
+    public HealthCheckResponse() {
+    }
 
     public HealthCheckResponse(String status, String timestamp) {
         this.status = status;

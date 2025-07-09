@@ -1,10 +1,11 @@
-package dev.training.dto;
+package dev.training.vendingmachine.dto;
 
 public class PurchaseResponse {
     private String message;
     private boolean success;
 
-    public PurchaseResponse() {}
+    public PurchaseResponse() {
+    }
 
     public PurchaseResponse(String message, boolean success) {
         this.message = message;
