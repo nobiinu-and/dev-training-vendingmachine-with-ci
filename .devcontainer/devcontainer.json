@@ -1,0 +1,14 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "humao.rest-client",
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
